@@ -22,14 +22,14 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 angular.json=>test=>options
 
- <!-- "codeCoverage": true, -->
+ "codeCoverage": true,
 
 ## Running unit tests with Force code coverage (based on 80 % covered)
 
 RUN ng test --watch=false --code--coverage
 
 karma.conf.js=>coverageReporter
-<!-- 
+
  check: {
         global: {
           statements: 80,
@@ -37,7 +37,7 @@ karma.conf.js=>coverageReporter
           branches: 80,
           functions: 80
         }
-      } -->
+      }
 
 ## Running end-to-end tests
 
